@@ -42,7 +42,7 @@ option(JUCE_ENABLE_MODULE_SOURCE_GROUPS "Enable Module Source Groups" ON)
 
 # SETUP JUCE
 include(CMake/GitFunctions.cmake)
-update_from_git(juce "https://github.com/juce-framework/JUCE" master)
+update_from_git(juce "https://github.com/juce-framework/JUCE" --branch 8.0.4)
 
 ## SETUP OPTIONS
 option(JUCE_ENABLE_MODULE_SOURCE_GROUPS "Enable Module Source Groups" ON)
